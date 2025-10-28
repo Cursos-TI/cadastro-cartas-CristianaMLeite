@@ -9,13 +9,14 @@ struct Carta {
     float area;
 };
 
-int main() {
+int main(){
     // Criação de duas variáveis do tipo struct Carta
     struct Carta carta1, carta2;
 
-    // ----- Cadastro da primeira carta -----
-    printf("--- Cadastro da Carta 1 ---\n");
-    printf("Digite o nome do país: Brasil");
+    // ----Cadastro da primeira carta----
+
+    printf("---Cadastro da Carta 1 ---\n");
+    printf("Digite o nome do país: Brasil\n");
     scanf("%s", carta1.nomePais);
     printf("Digite a capital: Brasília");
     scanf("%s", carta1.capital);
@@ -24,8 +25,9 @@ int main() {
     printf("Digite a área (em km²): 8.515.767");
     scanf("%f", &carta1.area);
 
-    // ----- Cadastro da segunda carta -----
-    printf("\n--- Cadastro da Carta 2 ---\n");
+    // -----Cadastro da segunda carta-----
+
+    printf("--- Cadastro da Carta 2 ---\n");
     printf("Digite o nome do país: Suécia");
     scanf("%s", carta2.nomePais);
     printf("Digite a capital: Estocolmo");
